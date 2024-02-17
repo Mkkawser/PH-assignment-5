@@ -1,11 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHero Paribhan</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- tailwindcss -->
+    <link rel="stylesheet" href="./output.css" />
+    <title>P-Ticket</title>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <div class="p-8">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <a class="btn btn-ghost text-xl fontb">P-Ticket</a>
+        </div>
+        <div class="navbar-center gap-4 lg:flex">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Destination</a>
+          <a href="#">Search</a>
+        </div>
+        <div class="navbar-end">
+          <div
+            class="btn text-[#1DD100] bg-[#c1efbc] hover:bg-inherit shadow-lg border-none"
+          >
+            Bus
+            <div class="badge outline-none bg-inherit border-none">
+              <img class="bg-transparent" src="./images/bus-icon.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="px-8 relative">
+      <div
+        style="background-image: url('./images/banner.png')"
+        class="hero min-h-[80vh] rounded-md"
+      >
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-[2.5rem] font-bold">
+              End-to-End Travel with <br />
+              <span class="text-[#1DD100]">P Paribahan</span>
+            </h1>
+            <p class="mb-4 text-[1rem]">
+              Yes, you can run unit tests and view the results directly within
+              the app. The integrated testing features allow for a streamlined.
+            </p>
+            <button class="btn bg-[#1DD100] border-none hover:bg-[#29ef5b]">
+              Buy Tickets
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex justify-center absolute bottom-[-45px] gap-5 w-[-webkit-fill-available]"
+      >
+        <div
+          class="card1 flex gap-2 items-center bg-white rounded-md p-2 border-2 border-b-[#38dc1b]"
+        >
+          <img src="./images/people.png" alt="" />
+          <div class="">
+            <p class="font-bold text-[1.5rem]">500K+</p>
+            <p>Registered users</p>
+          </div>
+        </div>
+        <div
+          class="card2 flex gap-2 items-center bg-white rounded-md p-2 border-2 border-b-[#38dc1b]"
+        >
+          <img src="./images/ticket-cupon.png" alt="" />
+          <div class="">
+            <p class="font-bold text-[1.5rem]">1.7 lacks</p>
+            <p>Tickets sold</p>
+          </div>
+        </div>
+        <div
+          class="card3 flex gap-2 items-center bg-white rounded-md p-2 border-2 border-b-[#38dc1b]"
+        >
+          <img src="./images/stoppage.png" alt="" />
+          <div class="flex flex-col">
+            <p class="font-bold text-[1.5rem]">80K+</p>
+            <p>Rental partners</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Best Offer For You -->
+    <div class="mt-[4rem] flex items-center justify-center gap-5">
+      <div
+        class="bg-[#FFBF0F] w-[400px] flex items-center justify-around rounded-md h-[150px]"
+      >
+        <div class="p-3">
+          <p class="font-bold text-[2rem]">15% OFF</p>
+          <p>on your next purchase</p>
+          <p>use by January 2024</p>
+        </div>
+        <img class="h-[inherit]" src="./images/cupon-devider.png" alt="" />
+        <div class="">
+          <p class="font-bold text-[2rem]">NEW15</p>
+          <p>Coupon Code</p>
+        </div>
+      </div>
+      <div
+        class="bg-[#F78C9C] w-[400px] flex items-center justify-around rounded-md h-[150px]"
+      >
+        <div class="p-3">
+          <p class="font-bold text-[2rem]">20% OFF</p>
+          <p>on your next purchase</p>
+          <p>use by January 2024</p>
+        </div>
+        <img class="h-[inherit]" src="./images/cupon-devider.png" alt="" />
+        <div class="">
+          <p class="font-bold text-[2rem]">Couple 20</p>
+          <p>Coupon Code</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex p-3 justify-center">
+      <button
+        class="btn btn-ghost text-[#1DD100] border-[#1DD100] hover:bg-[#b0eba6]"
+      >
+        See All Offers
+      </button>
+    </div>
+
+    <div class="">
+      <div class="bg-[#F7F8F8] p-4 border-t-2 border-[#1DD100] rounded-t-[6%]">
+        <div class="text-center p-4">
+          <p class="font-bold text-[3rem]">P.H Paribahan</p>
+          <p class="w-[60%] mx-auto">
+            Yes, you can run unit tests and view the results directly within the
+            app. The integrated testing features allow for a streamlined .
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-[1fr_7%_25%] justify-items-center items-center bg-[white] rounded-[10px]"
+        >
+          <div class="p-2">
+            <div class="flex items-center justify-between p-4">
+              <div class="flex items-center gap-2">
+                <img src="./images/bus-logo.png" alt="" />
+                <div class="">
+                  <p>Greenline Paribahan</p>
+                  <p>Coach-009-WEB ! AC_Business</p>
+                </div>
+              </div>
+              <div
+                class="flex items-center gap-1 bg-[#83e78a6b] text-[green] p-2 rounded-md"
+              >
+                <img src="./images/seat-green.png" alt="" />
+                <p class="">X Seats left</p>
+              </div>
+            </div>
+            <div class="p-4 bg-[#F7F8F8] rounded-[10px]">
+              <div class="flex justify-between p-4">
+                <p>Route</p>
+                <p>Dhaka - Sylhet</p>
+              </div>
+              <div class="flex justify-between p-4">
+                <p>Departure Time</p>
+                <p>9:00 PM</p>
+              </div>
+              <div class="flex flex-1 p-4 gap-3">
+                <button class="btn">Boarding Point - Laxmipur</button>
+                <button class="btn">Dropping Point - Bogura</button>
+                <button class="btn">Est. Time - 11 Hour</button>
+              </div>
+            </div>
+          </div>
+          <img
+            class="h-[-webkit-fill-available]"
+            src="./images/info-devider.png"
+          />
+          <div class="flex items-center flex-col">
+            <img src="./images/fare.png" alt="" />
+            <p class="font-bold text-[2rem]">550 Taka</p>
+            <p>Per Seat</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Select Your Seat -->
+      <div class="grid grid-cols-[60%_40%] p-4 bg-[#ffffff]">
+        <div class="">world</div>
+        <div class="">hello</div>
+      </div>
+    </div>
+
+    <div class="py-10">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur iusto
+      quod quidem repellendus tempora consequuntur at cum cupiditate nam ad eius
+      eum pariatur dolorum quas incidunt recusandae, quae fugiat quos hic
+      repellat! Quo dolores vitae quasi beatae nam, aperiam exercitationem
+      quidem quae? Voluptates nobis dignissimos nostrum illo sit aliquam
+      voluptatem quia. A reiciendis ad dolor explicabo, nisi quaerat repellat
+      delectus?
+    </div>
+
+    <!-- Footer Section -->
+    <div class="bg-[#030712] text-white">
+      <div class="p-10">
+        <div class="flex items-center justify-around p-[30px]">
+          <div class="">
+            <p class="font-bold text-[3rem]">P-Ticket</p>
+            <p class="w-[60%]">
+              P-Ticket is a digital platform to make your daily commuting
+              better.
+            </p>
+          </div>
+          <div class="flex flex-col items-center gap-2">
+            <p>Download our app</p>
+            <img class="w-[5rem]" src="./images/playstore.png" alt="" />
+          </div>
+        </div>
+
+        <hr class="mx-auto w-[80%] border-dashed" />
+
+        <div class="flex justify-around p-4">
+          <p>@all rights reserved, P-Ticket services limited.2024</p>
+          <div class="flex gap-3">
+            <p>Terms & condition</p>
+            <p>Return & refund policy</p>
+            <p>Privacy policy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

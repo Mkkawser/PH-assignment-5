@@ -740,40 +740,6 @@ html {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
 .avatar.placeholder > div {
   display: flex;
   align-items: center;
@@ -1455,16 +1421,16 @@ html {
   height: inherit;
 }
 
-.min-h-\[80vh\] {
-  min-height: 80vh;
-}
-
 .min-h-\[30\%\] {
   min-height: 30%;
 }
 
 .min-h-\[70\%\] {
   min-height: 70%;
+}
+
+.min-h-\[80vh\] {
+  min-height: 80vh;
 }
 
 .w-\[-webkit-fill-available\] {
@@ -1527,10 +1493,6 @@ html {
   align-items: center;
 }
 
-.justify-start {
-  justify-content: flex-start;
-}
-
 .justify-end {
   justify-content: flex-end;
 }
@@ -1571,6 +1533,22 @@ html {
   gap: 1.25rem;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
+.gap-32 {
+  gap: 8rem;
+}
+
+.gap-28 {
+  gap: 7rem;
+}
+
 .rounded-\[10px\] {
   border-radius: 10px;
 }
@@ -1592,12 +1570,12 @@ html {
   border-bottom-width: 2px;
 }
 
-.border-t-2 {
-  border-top-width: 2px;
-}
-
 .border-b-4 {
   border-bottom-width: 4px;
+}
+
+.border-t-2 {
+  border-top-width: 2px;
 }
 
 .border-solid {
@@ -1641,6 +1619,11 @@ html {
   background-color: rgb(29 209 0 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#1dd100\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 209 0 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#83e78a6b\] {
   background-color: #83e78a6b;
 }
@@ -1663,6 +1646,15 @@ html {
 .bg-\[\#c1efbc\] {
   --tw-bg-opacity: 1;
   background-color: rgb(193 239 188 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#c2c2c2ad\] {
+  background-color: #c2c2c2ad;
+}
+
+.bg-\[\#f7f8f8\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 248 248 / var(--tw-bg-opacity));
 }
 
 .bg-\[\#ffffff\] {
@@ -1693,30 +1685,6 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#1dd100\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(29 209 0 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#f7f8f8\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(247 248 248 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#fff\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#534b4b\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(83 75 75 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#c2c2c2ad\] {
-  background-color: #c2c2c2ad;
-}
-
 .p-10 {
   padding: 2.5rem;
 }
@@ -1733,16 +1701,16 @@ html {
   padding: 1rem;
 }
 
+.p-5 {
+  padding: 1.25rem;
+}
+
 .p-8 {
   padding: 2rem;
 }
 
 .p-\[30px\] {
   padding: 30px;
-}
-
-.p-5 {
-  padding: 1.25rem;
 }
 
 .px-8 {
@@ -1759,8 +1727,17 @@ html {
   text-align: center;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-\[1\.5rem\] {
   font-size: 1.5rem;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
 }
 
 .text-\[1rem\] {
@@ -1784,21 +1761,17 @@ html {
   line-height: 1.75rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-\[16px\] {
-  font-size: 16px;
-}
-
 .font-bold {
   font-weight: 700;
 }
 
 .font-extrabold {
   font-weight: 800;
+}
+
+.text-\[\#030712\] {
+  --tw-text-opacity: 1;
+  color: rgb(3 7 18 / var(--tw-text-opacity));
 }
 
 .text-\[\#1DD100\] {
@@ -1811,6 +1784,11 @@ html {
   color: rgb(0 128 0 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
 .text-neutral-content {
   --tw-text-opacity: 1;
   color: var(--fallback-nc,oklch(var(--nc)/var(--tw-text-opacity)));
@@ -1819,16 +1797,6 @@ html {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\#030712\] {
-  --tw-text-opacity: 1;
-  color: rgb(3 7 18 / var(--tw-text-opacity));
-}
-
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .shadow-lg {
@@ -1882,10 +1850,6 @@ body {
 
   .lg\:w-\[60\%\] {
     width: 60%;
-  }
-
-  .lg\:flex-row {
-    flex-direction: row;
   }
 
   .lg\:gap-10 {

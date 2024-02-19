@@ -59,7 +59,7 @@
               the app. The integrated testing features allow for a streamlined.
             </p>
             <button class="btn bg-[#1DD100] border-none hover:bg-[#29ef5b]">
-              Buy Tickets
+              <a href="#BuyTicket"> Buy Tickets </a>
             </button>
           </div>
         </div>
@@ -110,7 +110,7 @@
         <img class="h-[inherit]" src="./images/cupon-devider.png" alt="" />
         <div class="">
           <p class="font-bold text-[2rem]">NEW15</p>
-          <p>Coupon Code</p>
+          <p class="text-[#03071277]">Coupon Code</p>
         </div>
       </div>
       <div
@@ -124,7 +124,7 @@
         <img class="h-[inherit]" src="./images/cupon-devider.png" alt="" />
         <div class="">
           <p class="font-bold text-[2rem]">Couple 20</p>
-          <p>Coupon Code</p>
+          <p class="text-[#03071277]">Coupon Code</p>
         </div>
       </div>
     </div>
@@ -136,13 +136,12 @@
       </button>
     </div>
 
-    <div class="">
+    <div class="" id="BuyTicket">
       <div class="bg-[#F7F8F8] p-4 border-t-2 border-[#1DD100] rounded-t-[6%]">
         <div class="text-center p-4">
           <p class="font-bold text-[3rem]">P.H Paribahan</p>
-          <p class="w-[60%] mx-auto">
-            Yes, you can run unit tests and view the results directly within the
-            app. The integrated testing features allow for a streamlined .
+          <p class="w-[60%] mx-auto text-[#030712]">
+            Our amenities ensure a comfortable experience, offering modern facilities, friendly service, and recreational spaces for a delightful stay or journey
           </p>
         </div>
         <div
@@ -153,7 +152,7 @@
               <div class="flex items-center gap-2">
                 <img src="./images/bus-logo.png" alt="" />
                 <div class="">
-                  <p>Greenline Paribahan</p>
+                  <p class="font-bold text-[2rem]">Greenline Paribahan</p>
                   <p>Coach-009-WEB ! AC_Business</p>
                 </div>
               </div>
@@ -434,7 +433,7 @@
             <!-- total price section -->
             <div
               id="added-total-price"
-              class="flex justify-between items-center my-10"
+              class="flex justify-between items-center my-5"
             >
               <p class="font-extrabold text-[#030712] text-[16px]">
                 Total price
@@ -442,6 +441,10 @@
               <p class="font-extrabold text-[#030712] text-[16px]">
                 BDT <span id="total-price">0</span>
               </p>
+            </div>
+            <div class="flex items-center justify-between">
+              <p class="couponOff"></p>
+              <p class="couponOffP"></p>
             </div>
             <!-- input coupon applay section -->
             <div class="flex justify-between items-center my-10">
@@ -454,10 +457,6 @@
               </button>
             </div>
             <!-- grand total section -->
-            <div class="flex items-center justify-between">
-              <p class="couponOff"></p>
-              <p class="couponOffP"></p>
-            </div>
             <div class="flex justify-between items-center">
               <p class="font-extrabold text-[#030712] text-[16px]">
                 Grand Total
@@ -523,7 +522,12 @@
                     find the best service and deals for you.
                   </h3>
                   <p>Shortly you will find a confirmation in your email.</p>
-                  <button class="bg-[#27AE60] rounded-[10px] text-white p-3" onclick="document.location.reload()">Continue</button>
+                  <button
+                    class="bg-[#27AE60] rounded-[10px] text-white p-3"
+                    onclick="document.location.reload()"
+                  >
+                    Continue
+                  </button>
                 </div>
                 <form method="dialog" class="modal-backdrop">
                   <button>close</button>

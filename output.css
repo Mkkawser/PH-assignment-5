@@ -1693,22 +1693,6 @@ html {
   gap: 1.25rem;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
-.gap-20 {
-  gap: 5rem;
-}
-
-.gap-32 {
-  gap: 8rem;
-}
-
-.gap-28 {
-  gap: 7rem;
-}
-
 .rounded-\[10px\] {
   border-radius: 10px;
 }
@@ -1784,6 +1768,11 @@ html {
   background-color: rgb(29 209 0 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#27AE60\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 174 96 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#83e78a6b\] {
   background-color: #83e78a6b;
 }
@@ -1845,11 +1834,6 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#27AE60\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(39 174 96 / var(--tw-bg-opacity));
-}
-
 .p-10 {
   padding: 2.5rem;
 }
@@ -1881,16 +1865,6 @@ html {
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .text-center {
@@ -1926,13 +1900,13 @@ html {
   font-size: 3rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
-.text-lg {
-  font-size: 1.125rem;
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -1974,6 +1948,10 @@ html {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-\[\#03071277\] {
+  color: #03071277;
+}
+
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
@@ -1987,6 +1965,10 @@ html {
 
 body {
   font-family: "Raleway", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .hover\:bg-\[\#29ef5b\]:hover {

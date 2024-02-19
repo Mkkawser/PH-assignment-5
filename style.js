@@ -64,6 +64,8 @@ for (let i = 0; i < cards.length; i++) {
     }
     if (totalPrice / 550 == 4)
       document.querySelector(".btndis").disabled = false;
+
+    if (totalPrice == 0) document.querySelector(".confirmdis").disabled = true;
   });
   document.querySelector(".btndis").disabled = true;
 }
@@ -93,7 +95,6 @@ mobileNumber.addEventListener("change", function (e) {
   if (x.length >= 5) {
     document.querySelector(".confirmdis").disabled = false;
   }
-  if (totalPrice == 0) document.querySelector(".confirmdis").disabled = true;
 });
 
 function confirmBox() {

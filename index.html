@@ -66,7 +66,7 @@
         </div>
       </div>
       <div
-        class="justify-center absolute bottom-[-45px] gap-5 w-[-webkit-fill-available] hidden md:flex"
+        class="justify-center md:absolute md:bottom-[-45px] gap-5 w-[-webkit-fill-available]  md:flex"
       >
         <div
           class="card1 flex gap-2 items-center bg-white rounded-md p-2 border-2 border-b-[#38dc1b]"
@@ -509,8 +509,7 @@
             <div>
               <button
                 class="btn w-full my-5 text-black bg-[#1dd100] text-[16px] font-bold confirmdis"
-                onclick="my_modal_6.showModal()"
-                onclick="confirmBox()"
+                onclick="my_modal_6.showModal(),confirmBox()"
                 disabled
               >
                 Next

@@ -1565,6 +1565,10 @@ html {
   margin-top: 0.5rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -1980,6 +1984,14 @@ body {
 }
 
 @media (min-width: 768px) {
+  .md\:absolute {
+    position: absolute;
+  }
+
+  .md\:bottom-\[-45px\] {
+    bottom: -45px;
+  }
+
   .md\:block {
     display: block;
   }

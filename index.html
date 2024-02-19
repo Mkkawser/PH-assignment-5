@@ -23,12 +23,13 @@
         <div class="navbar-start">
           <a class="btn btn-ghost text-xl fontb">P-Ticket</a>
         </div>
-        <div class="navbar-center gap-4 lg:flex">
+        <div class="navbar-center gap-4 hidden md:flex">
           <a href="#">Home</a>
           <a href="#">About</a>
           <a href="#">Destination</a>
           <a href="#">Search</a>
         </div>
+        <img class="md:hidden" src="./images/menu.png" alt="" />
         <div class="navbar-end">
           <div
             class="btn text-[#1DD100] bg-[#c1efbc] hover:bg-inherit shadow-lg border-none"
@@ -65,7 +66,7 @@
         </div>
       </div>
       <div
-        class="flex justify-center absolute bottom-[-45px] gap-5 w-[-webkit-fill-available]"
+        class="justify-center absolute bottom-[-45px] gap-5 w-[-webkit-fill-available] hidden md:flex"
       >
         <div
           class="card1 flex gap-2 items-center bg-white rounded-md p-2 border-2 border-b-[#38dc1b]"
@@ -98,9 +99,9 @@
     </div>
 
     <!-- Best Offer For You -->
-    <div class="mt-[4rem] flex items-center justify-center gap-5">
+    <div class="mt-[4rem] flex flex-col md:flex-row items-center justify-center gap-5">
       <div
-        class="bg-[#FFBF0F] w-[400px] flex items-center justify-around rounded-md h-[150px]"
+        class="bg-[#FFBF0F] max-w-[3800px] flex items-center justify-around rounded-md h-[150px]"
       >
         <div class="p-3">
           <p class="font-bold text-[2rem]">15% OFF</p>
@@ -114,7 +115,7 @@
         </div>
       </div>
       <div
-        class="bg-[#F78C9C] w-[400px] flex items-center justify-around rounded-md h-[150px]"
+        class="bg-[#F78C9C] max-w-[3800px] flex items-center justify-around rounded-md h-[150px]"
       >
         <div class="p-3">
           <p class="font-bold text-[2rem]">20% OFF</p>
@@ -141,14 +142,16 @@
         <div class="text-center p-4">
           <p class="font-bold text-[3rem]">P.H Paribahan</p>
           <p class="w-[60%] mx-auto text-[#030712]">
-            Our amenities ensure a comfortable experience, offering modern facilities, friendly service, and recreational spaces for a delightful stay or journey
+            Our amenities ensure a comfortable experience, offering modern
+            facilities, friendly service, and recreational spaces for a
+            delightful stay or journey
           </p>
         </div>
         <div
-          class="grid grid-cols-[1fr_7%_25%] justify-items-center items-center bg-[white] rounded-[10px]"
+          class="flex flex-col md:grid md:grid-cols-[1fr_7%_25%] justify-items-center items-center bg-[white] rounded-[10px]"
         >
           <div class="p-2">
-            <div class="flex items-center justify-between p-4">
+            <div class="flex flex-col md:flex-row items-center justify-between p-4">
               <div class="flex items-center gap-2">
                 <img src="./images/bus-logo.png" alt="" />
                 <div class="">
@@ -172,7 +175,7 @@
                 <p>Departure Time</p>
                 <p>9:00 PM</p>
               </div>
-              <div class="flex flex-1 p-4 gap-3">
+              <div class="flex flex-col md:flex-row p-4 gap-3">
                 <button class="btn">Boarding Point - Laxmipur</button>
                 <button class="btn">Dropping Point - Bogura</button>
                 <button class="btn">Est. Time - 11 Hour</button>
@@ -180,7 +183,7 @@
             </div>
           </div>
           <img
-            class="h-[-webkit-fill-available]"
+            class="h-[-webkit-fill-available] hidden md:block"
             src="./images/info-devider.png"
           />
           <div class="flex items-center flex-col">
@@ -192,7 +195,7 @@
       </div>
 
       <!-- Select Your Seat -->
-      <div class="grid grid-cols-[60%_40%] p-4 bg-[#ffffff]">
+      <div class="flex flex-col md:grid md:grid-cols-[60%_40%] md:justify-items-center p-4 bg-[#ffffff]">
         <!-- left side seat -->
         <div
           class="lg:w-[60%] lg:border-r-4 border-dotted border-black-500 p-10"
@@ -401,10 +404,10 @@
         </div>
         <!-- right side seat -->
         <div
-          class="lg:w-[40%] border-b-4 border-dotted border-black-500 lg:my-5 my-3"
+          class="border-dotted border-black-500 lg:my-5 my-3"
         >
           <p
-            class="raleway text-center lg:text-start font-bold text-2xl lg:text-[24px]"
+            class=" text-center lg:text-start font-bold text-2xl lg:text-[24px]"
           >
             Select Your Seat
           </p>
@@ -466,7 +469,7 @@
               </p>
             </div>
           </div>
-          <div class="p-5 lg:p-10 min-h-[70%]">
+          <div class="p-5 lg:p-10 min-h-[50%]">
             <label class="form-control w-full">
               <div class="label">
                 <span class="label-text text-[16px] font-extrabold"
@@ -551,10 +554,10 @@
     <!-- Footer Section -->
     <div class="bg-[#030712] text-white">
       <div class="p-10">
-        <div class="flex items-center justify-around p-[30px]">
-          <div class="">
-            <p class="font-bold text-[3rem]">P-Ticket</p>
-            <p class="w-[60%]">
+        <div class="flex flex-col md:flex-row items-center justify-around p-[30px]">
+          <div class="mt-2">
+            <p class="font-bold text-[1.5rem] md:text-[3rem]">P-Ticket</p>
+            <p class="md:w-[60%]">
               P-Ticket is a digital platform to make your daily commuting
               better.
             </p>
